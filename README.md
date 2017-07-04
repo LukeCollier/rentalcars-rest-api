@@ -1,9 +1,12 @@
 # Rentalcars Rest API for Technical Test Intake 2017
 [![Build Status](https://travis-ci.org/LukeCollier/rentalcars-rest-api.svg?branch=master)](https://travis-ci.org/LukeCollier/rentalcars-rest-api)
 
+## Unzip
+First unzip the two zip files in the target directory. The console-application.zip is for the console application and the rest-api.zip for the RESTful API.
+
 ## Part 1 Console Application
 To use the console application goto the project directory and type `java -cp target/rentalcar-technical-test-1.0-SNAPSHOT-jar-with-dependencies com.rentalcars.app.ConsoleApplication` in the console of your choice.
-![Proof of the working console application](images/console-proof.png =500x?raw=true)
+![Proof of the working console application](images/console-proof.png?raw=true)
 
 ## Part 2 API
 Either run the bash script at `/target/universal/com-rentalcars-rest-api-1.0-SNAPSHOT/bin/com-rentalcars-rest-api`
