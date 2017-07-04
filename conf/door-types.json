@@ -1,0 +1,34 @@
+[
+    {
+      "letter": "B",
+      "value": "2 doors"
+    },
+    {
+      "letter": "C",
+      "value": "4 doors"
+    },
+    {
+      "letter": "D",
+      "value": "5 doors"
+    },
+    {
+      "letter": "W",
+      "value": "Estate"
+    },
+    {
+      "letter": "T",
+      "value": "Convertible"
+    },
+    {
+      "letter": "F",
+      "value": "SUV"
+    },
+    {
+      "letter": "P",
+      "value": "Pick up"
+    },
+    {
+      "letter": "V",
+      "value": "Passenger Van"
+    }
+  ]

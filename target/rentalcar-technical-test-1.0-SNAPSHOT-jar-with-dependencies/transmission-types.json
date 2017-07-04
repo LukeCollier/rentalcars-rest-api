@@ -1,0 +1,12 @@
+[
+    {
+      "letter": "M",
+      "value": "Manual",
+      "score": 1
+    },
+    {
+      "letter": "A",
+      "value": "Automatic",
+      "score": 5
+    }
+]

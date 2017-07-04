@@ -1,0 +1,33 @@
+[0m[[0minfo[0m] [0mPackaging /Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/com-rentalcars-rest-api_2.11-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	transmission-types.json[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/conf/transmission-types.json[0m
+[0m[[0mdebug[0m] [0m	door-types.json[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/conf/door-types.json[0m
+[0m[[0mdebug[0m] [0m	fuel-air-con-types.json[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/conf/fuel-air-con-types.json[0m
+[0m[[0mdebug[0m] [0m	com/rentalcars/LetterToValue.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/com/rentalcars/LetterToValue.java[0m
+[0m[[0mdebug[0m] [0m	com/rentalcars/CarInfo.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/com/rentalcars/CarInfo.java[0m
+[0m[[0mdebug[0m] [0m	com/rentalcars/models/VehiclesResponse.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/com/rentalcars/models/VehiclesResponse.java[0m
+[0m[[0mdebug[0m] [0m	com/rentalcars/ConsoleApplication.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/com/rentalcars/ConsoleApplication.java[0m
+[0m[[0mdebug[0m] [0m	com/rentalcars/models/Car.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/com/rentalcars/models/Car.java[0m
+[0m[[0mdebug[0m] [0m	com/rentalcars/models/Search.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/com/rentalcars/models/Search.java[0m
+[0m[[0mdebug[0m] [0m	com/rentalcars/models/SpecType.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/com/rentalcars/models/SpecType.java[0m
+[0m[[0mdebug[0m] [0m	controllers/CarsController.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/app/controllers/CarsController.java[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/conf/routes[0m
+[0m[[0mdebug[0m] [0m	car-types.json[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/conf/car-types.json[0m
+[0m[[0mdebug[0m] [0m	logback.xml[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/conf/logback.xml[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /Users/Joker/projects/rentalcars-rest-api/conf/application.conf[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

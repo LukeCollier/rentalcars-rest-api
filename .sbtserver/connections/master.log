@@ -1,0 +1,13 @@
+New log file opened at Tue Jul 04 12:08:48 BST 2017 by 3472@Joker.local
+Taking next connection to: 50385
+New client attempting to connect on port: 50386-50385
+  Address = /192.168.1.107:50385
+This client on port 50386 has uuid a4196135-c1a3-4be7-aa32-500bd209e80e configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-a4196135-c1a3-4be7-aa32-500bd209e80e
+Taking next connection to: 50385
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 3472@Joker.local logs at Tue Jul 04 12:11:58 BST 2017, goodbye.

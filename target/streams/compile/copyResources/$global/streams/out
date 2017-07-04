@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/Joker/projects/rentalcars-rest-api/conf/application.conf,/Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Joker/projects/rentalcars-rest-api/conf/car-types.json,/Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/classes/car-types.json)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Joker/projects/rentalcars-rest-api/conf/door-types.json,/Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/classes/door-types.json)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Joker/projects/rentalcars-rest-api/conf/fuel-air-con-types.json,/Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/classes/fuel-air-con-types.json)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Joker/projects/rentalcars-rest-api/conf/logback.xml,/Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Joker/projects/rentalcars-rest-api/conf/routes,/Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Joker/projects/rentalcars-rest-api/conf/transmission-types.json,/Users/Joker/projects/rentalcars-rest-api/target/scala-2.11/classes/transmission-types.json)[0m

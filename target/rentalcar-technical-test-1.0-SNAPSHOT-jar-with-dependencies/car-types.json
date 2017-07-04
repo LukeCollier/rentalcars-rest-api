@@ -1,0 +1,38 @@
+[
+  {
+    "letter": "M",
+    "value": "Mini"
+  },
+  {
+    "letter": "E",
+    "value": "Economy"
+  },
+  {
+    "letter": "C",
+    "value": "Compact"
+  },
+  {
+    "letter": "I",
+    "value": "Intermediate"
+  },
+  {
+    "letter": "S",
+    "value": "Standard"
+  },
+  {
+    "letter": "F",
+    "value": "Full size"
+  },
+  {
+    "letter": "P",
+    "value": "Premium"
+  },
+  {
+    "letter": "L",
+    "value": "Luxury"
+  },
+  {
+    "letter": "X",
+    "value": "Special"
+  }
+]
