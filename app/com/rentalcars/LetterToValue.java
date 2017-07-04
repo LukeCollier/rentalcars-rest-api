@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Specifications are a map of characters to an string
+ * Specifications are a map of characters to a string and score value
  */
 public class LetterToValue {
     private final Map<Character, SpecificationWrapper> specificationData;

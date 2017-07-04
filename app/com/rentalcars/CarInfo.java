@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
+/**
+ * Get's car list information as a list of strings
+ */
 public class CarInfo {
     // Handy variables with the path's to the relevant resource files
     private final static String CAR_TYPES_PATH = "/car-types.json";
@@ -31,7 +34,7 @@ public class CarInfo {
     /**
      * Initializes the different LetterToValue types by using try-with-resources that will automatically close the
      * stream
-     * @throws IOException
+     * @throws IOException Throws an exception if anything goes wrong with input stream of resources
      */
     public CarInfo() throws IOException {
         try(InputStream inputStreamCarTypes = getClass().getResourceAsStream(CAR_TYPES_PATH)){
@@ -56,7 +59,7 @@ public class CarInfo {
     /**
      * Task one of the technical test, get's the name and price ordered by the price in ascending order.
      * @param carList the car list to order and get the string of
-     * @return
+     * @return a string list of cars
      */
     public String formatPriceOrder(List<Car> carList) {
         return carList.stream()
@@ -69,10 +72,9 @@ public class CarInfo {
     /**
      * Task two of the technical test, get's the name, sipp code, sipp code meanings output in the order it was received
      * @param carList the car list to get the string of
-     * @return
-     * @throws IOException
+     * @return a string list of cars
      */
-    public String formatCarSummary(List<Car> carList) throws IOException {
+    public String formatCarSummary(List<Car> carList) {
         return carList.stream()
                 .map(car -> String.format("{%s} - {%s} - {%s} - {%s} - {%s} - {%s} - {%s}",
                         car.getName(),
@@ -86,6 +88,11 @@ public class CarInfo {
                 .collect(Collectors.joining("\n"));
     }
 
+    /**
+     * Formats the list of cars by rating and car type order
+     * @param carList the car list to format and sorted
+     * @return a string list of cars
+     */
     public String formatCarTypeRatingOrder(List<Car> carList) {
         return carList.stream()
                 .sorted((car1, car2) -> {
@@ -106,6 +113,11 @@ public class CarInfo {
                 .collect(Collectors.joining("\n"));
     }
 
+    /**
+     * Formats the list sorted by a score value
+     * @param carList the car list to format and sort
+     * @return a string list of cars
+     */
     public String formatCarScoreOrder(List<Car> carList) {
         return carList.stream()
                 .sorted((car1, car2) -> {
@@ -126,7 +138,6 @@ public class CarInfo {
      * Takes the last two characters of the SIPP and finds their combined score
      * @param sipp a string that is the SiPP code to use
      * @return an integer value representing the total score of the SiPP
-     * @throws IOException if an error occurs with the input stream
      */
     private int getScoreFromSipp(String sipp) {
         return transmissionTypes.getScoreFromLetter(sipp.charAt(TRANS_POS))

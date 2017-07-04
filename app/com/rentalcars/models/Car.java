@@ -2,6 +2,9 @@ package com.rentalcars.models;
 
 import java.math.BigDecimal;
 
+/**
+ * A car object that matches the vehicles car objects
+ */
 public class Car {
     private String sipp;
     private String name;

@@ -10,10 +10,18 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.List;
 
+/**
+ * The console application get's and displays all the tasks in the technical test to a console
+ */
 public class ConsoleApplication {
 
     private final static String TARGET_WEBSITE_PATH = "http://www.rentalcars.com/js/vehicles.json";
 
+    /**
+     * The main method that runs
+     * @param args
+     * @throws IOException if any of the streams have issues
+     */
     public static void main(String[] args) throws IOException {
 
         // The website url to get the data from

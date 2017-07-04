@@ -1,5 +1,8 @@
 package com.rentalcars.models;
 
+/**
+ * A specification type used to be mapped to against the resources json types
+ */
 public class SpecType {
     private Character letter;
     private String value;
